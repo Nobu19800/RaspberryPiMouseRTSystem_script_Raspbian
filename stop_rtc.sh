@@ -1,0 +1,9 @@
+#!/bin/sh
+killall -s SIGINT RaspberryPiMouseRTCComp
+killall RaspberryPiMouseRTCComp
+killall -s SIGINT RaspberryPiMouseController_JoystickComp
+killall RaspberryPiMouseController_JoystickComp
+killall -s SIGINT RaspberryPiMouseController_DistanceSensorComp
+killall RaspberryPiMouseController_DistanceSensorComp
+killall -s SIGINT NineAxisSensor_RT_USBComp
+killall NineAxisSensor_RT_USBComp
